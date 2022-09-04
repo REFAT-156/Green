@@ -30,7 +30,7 @@
  
 - `pip install bs4`
  
-- `rm -rf Green_Lover`
+- `rm -rf Green`
  
 - `git clone https://github.com/REFAT-156/Green.git`
  

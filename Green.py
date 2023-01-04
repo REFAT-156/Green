@@ -1,32 +1,21 @@
-import os, platform
- 
-try:
- 
-        import requests
- 
-except:
- 
-        os.system('pip2 install requests')
- 
- 
- 
-import requests
- 
-bit = platform.architecture()[0]
- 
-if bit == "64bit":
- 
-        from file64 import m
- 
-        m()
- 
- 
- 
-elif bit == "32bit":
- 
-        from file32 import m
- 
- 
-        m()
- 
- 
+import os, platform, time
+print('\n\x1b[1;37m[●] Checking Update.....');time.sleep(0.5)
+def Update():
+    exit('\033[1;31m[●] Commands On Update Please Wait For Update ❤ ')
+def Run():
+        bit = platform.architecture()[0]
+        if bit == '64bit':
+            print("\x1b[1;92m[●] Congratulations ! Your Device Support this Tools")
+            print('[●] Follow My Github First')
+            os.system('xdg-open https://github.com/REFAT-156')
+            from rfile import m
+            m()
+        elif bit == '32bit':
+            print("\n\x1b[1;92m[●] Congratulations ! Your Device Support this Tools")
+            print('[●] Follow My Github First')
+            os.system('xdg-open https://github.com/REFAT-156')
+            from ffile import m
+            m()
+        else:
+            exit('\033[1;31m[●] Connection & Network Error')
+Run()

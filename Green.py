@@ -13,13 +13,13 @@ def Run():
             xoss("\x1b[1;92m[●] Congratulations ! Your Device Support this Tools 🍼🙂")
             xoss('\x1b[1;94m[●] Follow My Github First 🎈')
             os.system('xdg-open https://github.com/REFAT-156')
-            from ffile import m
+            from mfile import m
             m()
         elif bit == '32bit':
             xoss("\n\x1b[1;92m[●] Congratulations ! Your Device Support this Tools 🍼🙂")
             xoss('\x1b[1;94m[●] Follow My Github First 🎈')
             os.system('xdg-open https://github.com/REFAT-156')
-            from ffile import m
+            from mfile import m
             m()
         else:
             exit('\033[1;31m[●] Connection & Network Error 🤕')
